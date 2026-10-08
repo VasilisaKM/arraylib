@@ -21,3 +21,11 @@ cmake --build build -j
 ## Тесты
 
 cd build && ctest --output-on-failure
+
+## Структура проекта
+
+    include/arraylib.h      — заголовок (интерфейс)
+    src/arraylib.cpp        — реализация
+    src/main.cpp            — демонстрационная программа
+    tests/                  — unit- и интеграционные тесты
+    examples/variant_18.cpp — программа по варианту 18
